@@ -187,6 +187,15 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer related styles */
+.foot{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    text-align: center;
+    padding: 40px;
+    margin: 130px 216px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams,
@@ -211,6 +220,10 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .foot{
+        margin: 0px;
+        padding: 10px;
     }
 }
 
